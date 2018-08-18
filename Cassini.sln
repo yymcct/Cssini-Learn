@@ -1,43 +1,42 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{9BEE2249-9023-4D54-8243-7BA49357DCC4}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassiniService", "CassiniService\CassiniService.csproj", "{97579257-2761-4AD7-8337-1C23454C9E9D}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManager", "ServiceManager\ServiceManager.csproj", "{3E93809F-16A0-4396-BC88-B40D65C6A809}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{F1B024CF-B52B-4C63-AF1B-63A7A0488735}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Debug.ActiveCfg = Debug|.NET
-		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Debug.Build.0 = Debug|.NET
-		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Release.ActiveCfg = Release|.NET
-		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Release.Build.0 = Release|.NET
-		{97579257-2761-4AD7-8337-1C23454C9E9D}.Debug.ActiveCfg = Debug|.NET
-		{97579257-2761-4AD7-8337-1C23454C9E9D}.Debug.Build.0 = Debug|.NET
-		{97579257-2761-4AD7-8337-1C23454C9E9D}.Release.ActiveCfg = Release|.NET
-		{97579257-2761-4AD7-8337-1C23454C9E9D}.Release.Build.0 = Release|.NET
-		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Debug.ActiveCfg = Debug|.NET
-		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Debug.Build.0 = Debug|.NET
-		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Release.ActiveCfg = Release|.NET
-		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Release.Build.0 = Release|.NET
-		{F1B024CF-B52B-4C63-AF1B-63A7A0488735}.Debug.ActiveCfg = Debug
-		{F1B024CF-B52B-4C63-AF1B-63A7A0488735}.Release.ActiveCfg = Release
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEE2249-9023-4D54-8243-7BA49357DCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97579257-2761-4AD7-8337-1C23454C9E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97579257-2761-4AD7-8337-1C23454C9E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97579257-2761-4AD7-8337-1C23454C9E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97579257-2761-4AD7-8337-1C23454C9E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E93809F-16A0-4396-BC88-B40D65C6A809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B024CF-B52B-4C63-AF1B-63A7A0488735}.Debug|Any CPU.ActiveCfg = Debug
+		{F1B024CF-B52B-4C63-AF1B-63A7A0488735}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+		SolutionGuid = {ACC0522F-5B35-4A80-BB6F-664526BB1AB4}
 	EndGlobalSection
 EndGlobal
